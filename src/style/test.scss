@@ -1,9 +1,4 @@
 .test-class::before {
-    content: "pseudo-element";
     display: block;
-}
-
-.test-class::selection {
-    color: white;
-    background-color: black;
+    content: "simple text";
 }
